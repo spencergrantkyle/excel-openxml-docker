@@ -1,0 +1,43 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Virtual environments
+venv/
+.venv/
+env/
+.env/
+
+# Environment variables (NEVER commit - contains passwords!)
+.env
+
+# Decrypted Excel files (sensitive data)
+*_DECRYPTED.xlsx
+*_REZIPPED.xlsx
+
+# Unzipped Excel XML directories
+workbook_xml/
+workbook/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+tmp/
+temp/
